@@ -15,6 +15,10 @@ const btnLogin = newButton('Login', (button) => {
     color: red;
     font-size:20px
   `;
+
+  button.addEventListener('click', () => {
+    console.log('oi');
+  })
 });
 const btnSignup = newButton('Sing Up', (button) => {
   button.style.cssText = `
